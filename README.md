@@ -41,9 +41,9 @@ The tasks and their executions are stored in MongoDB.
 
 ---
 
-### 📸 Screenshots
+### Screenshots
 
-#### 1️⃣ Creating a Task
+#### 1️ Creating a Task
 
 ![Create Task](screenshots/create-task.png)
 → This screenshot shows the curl command used to create a new task in the Task API. The API successfully stores the task details (id, name, owner, and command) in MongoDB.
@@ -80,7 +80,7 @@ The tasks and their executions are stored in MongoDB.
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 1. **Clone the repository**
 
@@ -106,7 +106,7 @@ The tasks and their executions are stored in MongoDB.
    This will download all dependencies automatically:
 
 ```bash
-    mvn clean install
+   mvn clean install
    mvn spring-boot:run
 ```
 
