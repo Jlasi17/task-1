@@ -1,0 +1,30 @@
+# Maven / target
+/target/
+*.log
+
+# Eclipse / IntelliJ / VSCode files
+*.classpath
+*.project
+*.settings/
+*.idea/
+*.iml
+
+# Spring Boot specific
+spring.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Kubernetes / minikube temp files
+.kube/
+*.kubeconfig
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Other build files
+*.class
+*.jar
+*.war
