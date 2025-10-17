@@ -85,27 +85,29 @@ The tasks and their executions are stored in MongoDB.
 1. **Clone the repository**
 
 ```bash
-gh repo clone Jlasi17/task-1
-cd task-api
+   gh repo clone Jlasi17/task-1
+   cd task-api
 ```
 
 2. Start MongoDB
    Make sure MongoDB is running locally on the default port (27017).
 
-````bash
-    mongosh
-    ```
-3.	Start Minikube (for Kubernetes executions)
 ```bash
-minikube start
-````
+    mongosh
+```
+
+3. Start Minikube (for Kubernetes executions)
+
+```bash
+   minikube start
+```
 
 4. Build and run the project
    This will download all dependencies automatically:
 
 ```bash
     mvn clean install
-mvn spring-boot:run
+   mvn spring-boot:run
 ```
 
 5. Test the API
